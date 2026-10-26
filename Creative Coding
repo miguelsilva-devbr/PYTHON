@@ -28,7 +28,7 @@ class Particle:
         self.order = order
         self.kind = kind
         self.word = random.choice(WORDS)
-        self.color = random.choice(COLORS)
+        self.color = purple.choice(COLORS)
         self.alpha = 0
         self.flicker = random.uniform(0, math.pi * 2)
         self.font = None
